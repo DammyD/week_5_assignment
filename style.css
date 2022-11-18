@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, p {
+    overflow-wrap: break-word;
+}
+
+.section {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(214,221,202,1) 50%, rgba(253,187,45,1) 100%);
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+}
+
+.container {
+    background-color: rgb(237,239,241);
+    height: 100%;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.logo {
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 280px;
+} 
+
+.menu li a, 
+.skills li a{
+    text-decoration: none;
+    color:#000000;
+    
+}
+
+.btn {
+    margin: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    background-color: #000000;
+}
+
+
+.profile_image img{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 10%, rgba(231,205,61,1) 40%, rgba(237,239,241,1) 74%);
+    border-radius: 10px;
+}
+ 
+
+.hero_page {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: 45px;
+}
+
+.portfolio {
+    margin: 30px;
+    align-items: center;
+}
+
+.portfolio h1 {
+    font-size: 28px;
+}
+.portfolio_section {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: 50px;
+}
+
+.portfolio_content h2 {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+
+.skills { 
+    align-items: center;
+    margin: 40px;
+}
+
+.skills li {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    padding: 6px;
+    border: 1px solid rgba(56, 57, 58, 0.253);
+    border-radius: 10px;
+}
+
+.skills li:hover {
+    background-color: #000000;
+}
+.skills li a:hover{
+    color: #edeff1;
+
+}
+
