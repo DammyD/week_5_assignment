@@ -25,7 +25,7 @@ h1, h2, p {
     background-color: rgb(237,239,241);
     height: 100%;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
 
 }
 
@@ -35,10 +35,12 @@ header {
     align-items: center;  
 }
 
+
 .logo {
     width: 60px;
     height: 50px;
     cursor: pointer;
+
 }
 
 .menu ul {
@@ -61,6 +63,7 @@ header {
     border-radius: 5px;
     color: white;
     background-color: #000000;
+    cursor: pointer;
 }
 
 
@@ -74,11 +77,11 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    margin: 45px;
+    margin: 50px;
 }
 
 .portfolio {
-    margin: 30px;
+    margin: 25px;
     align-items: center;
 }
 
@@ -94,7 +97,19 @@ header {
 
 .portfolio_content h2 {
     text-transform: capitalize;
+    
+}
+
+.portfolio_content h2, .portfolio h1 {
     margin-bottom: 5px;
+}
+
+.portfolio p, .portfolio_content p {
+    color: #828385f3;
+}
+
+span p {
+    color:#000000;
 }
 
 
@@ -114,7 +129,7 @@ header {
 }
 
 .skills li:hover {
-    background-color: #000000;
+    background-color: #888484;
 }
 .skills li a:hover{
     color: #edeff1;
