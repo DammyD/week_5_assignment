@@ -9,4 +9,7 @@ your skill set list
 
 - Take a screenshot of your portfolio in the browser: `how to screenshot`
 - Attach the screenshot to your citrone submission and submit the link to the repository
+
+- Google drive link to my screenshot:  https://drive.google.com/file/d/1fcXUtSSkxAYBWaFHQ9-rZHzPfOxLNUuU/view?usp=sharing 
+
 # Note: you get full grade for both the screenshot and code. If you don’t know how to attach document on citrone ask
